@@ -306,6 +306,16 @@ footer {
     padding: 1rem 0;
 }
 
+.webbideias{
+    font-size:small;
+    padding-left: 0.5rem;
+}
+
+.webbideias::before {
+    content: "→";
+    padding-right: 0.5rem;
+}
+
 .hr-footer{
     border-color:  #fff;
     text-align: center;
@@ -334,6 +344,7 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
     background-color: #333;
     color: #fff;
     padding: 1.3rem 1.3rem;
@@ -599,6 +610,11 @@ footer {
         max-width: 40rem;
     }
 
+    .webbideias::before {
+        content: "";
+        padding-right: 0;
+    }
+
 }
 
 @media (max-width: 414px) {
@@ -692,6 +708,20 @@ footer {
         text-transform: uppercase;
         margin: 2rem 2rem;
         cursor: pointer;
+    }
+
+    .webbideias{
+        font-size:small;
+        padding-top: 0.5rem;
+    }
+
+    .content-footer-copy {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #333;
+        color: #fff;
     }
 
 }

@@ -13,9 +13,8 @@
             <a href="#"><img class="svg-footer" src="<?php bloginfo('template_url'); ?>/assets/images/icons/9920775951556105709.svg" alt=""></a>
     </div>
     <div class="content-footer-copy">
-        <span>Copyright © <strong> <?php bloginfo('name'); ?> </strong> </span>
-        <span>&nbsp | &nbsp</span>
-        <span> Desenvolvido por <a href="https://www.instagram.com/webbideias/"> @webbideias </a></span>
+        <span>Copyright © <strong><?php bloginfo('name'); ?></strong></span>
+        <span class="webbideias">Desenvolvido por <a href="https://www.instagram.com/webbideias/">@webbideias</a></span>
     </div>
 </footer>
 </body>
