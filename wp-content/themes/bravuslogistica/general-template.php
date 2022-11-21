@@ -25,7 +25,11 @@ Template Name: General Template
         </nav>
         
 </header>
-<img src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="" />
+
+<div class="img-header">
+    <img src="<?php header_image(); ?>" height="<?php //echo get_custom_header()->height; ?>" width="<?php //echo get_custom_header()->width; ?>" alt="" />
+</div>
+
 <main>
 
     <?php
