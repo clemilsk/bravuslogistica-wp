@@ -35,9 +35,6 @@ wp-config.php
 # htaccess
 /.htaccess
 
-# credencial
-credencial.txt
-
 # All plugins
 #
 # Note: If you wish to whitelist plugins,
